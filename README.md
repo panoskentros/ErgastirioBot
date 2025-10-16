@@ -7,6 +7,10 @@ To run the project run these commands:
 docker run -it --rm -v /path/to/repo:/app -w /app ergastiriobot dotnet build
 docker run -it --rm -v /path/to/repo:/app -w /app ergastiriobot
 
+if these dont work try:
+docker run -it --rm -v "C:\replace\with\path\to\ErgastirioBot:/app" -w /app ergastiriobot dotnet build
+docker run -it --rm -v "C:\replace\with\path\to\ErgastirioBot:/app" -w /app ergastiriobot
+
 
 Example:
 if the project is located c:/MyProjects/ErgastirioBot you should do:
